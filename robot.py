@@ -14,7 +14,7 @@ class Product:
 
 
 
-products = [Product(price=900, count=2, tax=1.25), Product(price=100, count=1, tax=1.06)]
+products = [Product(price=900, count=2, tax=1.25), Product(price=100, count=1, tax=1.06), Product(price=50, count=2, tax=1.25)]
 total_price = 0
 for product in products:
     total_price = total_price + product.price_with_tax()
